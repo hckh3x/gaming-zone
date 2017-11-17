@@ -1,12 +1,25 @@
 html,body{
 	margin: 0 0 auto;
 	font-family:verdana;
+<<<<<<< HEAD
+	background:	#999999;
+}
+.nav-bar{
+	padding:30px;
+	background:	#333333;
+	height:3%;
+	width:100%;
+	opacity:0.9;
+	position:fixed;
+	z-index:3;
+=======
 	background:#b3cde0;
 }
 .nav-bar{
 	padding:30px;
 	background:#03396c;
 	height:100%;
+>>>>>>> 33a29c6e83c64abace82673fc140dd85bce056c3
 }
 .nav-bar a{
 	text-decoration:none;
@@ -15,6 +28,11 @@ html,body{
 	font-size:30px;
 	color:white;
 	font-weight:bold;
+<<<<<<< HEAD
+	position:fixed;
+	top:1%;
+}
+=======
 	position:absolute;
 	top:1%;
 }
@@ -22,11 +40,33 @@ html,body{
 	position:relative;
 
 }
+>>>>>>> 33a29c6e83c64abace82673fc140dd85bce056c3
 .nav-bar .menu-list ul li{
 	float:right;
 	color:white;
 	font-size:20px;
 	list-style:none;
+<<<<<<< HEAD
+	margin-right:60px;
+}
+.wraper-body{
+	width:100%;
+	position: relative;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.wraper-body h1{
+	margin-bottom:50px;
+}
+.wraper-body span{
+	font-weight:bold;
+}
+.description{
+	text-align:justify,center;
+}
+.text-center{
+	text-align:center !important;
+=======
 	margin-right:30px;
 }
 .wraper-body{
@@ -39,6 +79,7 @@ html,body{
 }
 .text-center{
 	text-align:center;
+>>>>>>> 33a29c6e83c64abace82673fc140dd85bce056c3
 }
 .wraper-body .title{
 	font-size:40px;
@@ -70,6 +111,20 @@ html,body{
 	text-decoration:none;
 	color:white;
 }
+<<<<<<< HEAD
+
+footer{
+	background:black !important;
+	margin-top:80px;
+	color:	#999999;
+	padding:50px;
+}
+
+html,body {
+	margin: 0;
+	padding: 0;
+}
+=======
 footer::before{
 	background:black;
 }
@@ -79,3 +134,4 @@ footer::before{
 	color:#b3cde0;
 	padding:50px;
 }
+>>>>>>> 33a29c6e83c64abace82673fc140dd85bce056c3
